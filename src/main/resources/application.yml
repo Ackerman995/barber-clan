@@ -9,7 +9,7 @@ spring:
 
 telegram:
   bot:
-    username: Papa_Blinov_Bot
+    username: PapaBlinovBot
     token: 6815728538:AAGJhaQQkzL4TDASNxll4xacPWeu05lu4RI
     webhook-path: /webhook
 
