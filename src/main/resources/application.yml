@@ -4,25 +4,25 @@ spring:
   data:
     redis:
       host: redis
-#      host: localhost
+ #     host: localhost
       port: 6379
 
 telegram:
   bot:
-    username: PapaBlinovBot
-    token: 6815728538:AAGJhaQQkzL4TDASNxll4xacPWeu05lu4RI
+    username: BarberClan_bot
+    token: ${TG_API_TOKEN}
     webhook-path: /webhook
 
 ngrok:
-  url: https://dear-recently-insect.ngrok-free.app
+  url: ${NGROK_URL}
 #  url:  https://leading-bluebird-included.ngrok-free.app
 
 openai:
-  token: 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
+  token: ${OPENAI_TOKEN}
 
 notion:
   api:
-    token: secret_m7M2iriZmWJIw81akR1jJQzKTv0jrvuyHRrBogFOis5
+    token: ${NOTION_API_TOKEN}
 
 
 
